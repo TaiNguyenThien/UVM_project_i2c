@@ -1,0 +1,333 @@
+# vsim +UVM_TESTNAME=i2c_master_read_test +UVM_VERBOSITY=UVM_HIGH -assertdebug -do {log -r /*;run -all;} -l i2c_master_read_test_1.log -voptargs=+acc -c -sv_seed 1 testbench 
+# Loading C:\Users\LENOVO\AppData\Local\Temp\LENOVO@DESKTOP-76RQP1E_dpi_12900\win64_gcc-4.5.0\export_tramp.dll
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# 
+# //  Questa Sim-64
+# //  Version 10.2c Unknown Platform Jul 19 2013
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading sv_std.std
+# Loading work.uvm_pkg(fast)
+# Loading work.apb_pkg(fast)
+# ** Note: (vsim-8785) UVM-aware debugging capabilities will be disabled since no compiled "questa_uvm_pkg" can be found.
+# 
+# This also means that later if you turn on UVM-aware debugging your debug simulations may have
+# 
+# different random seeds from your non-debug simulations.
+# 
+# Loading work.seq_pkg(fast)
+# Loading work.i2c_register_pkg(fast)
+# Loading work.i2c_regmodel_pkg(fast)
+# Loading work.i2c_pkg(fast)
+# Loading work.env_pkg(fast)
+# Loading work.test_pkg(fast)
+# Loading work.testbench(fast)
+# Loading work.apb_if(fast)
+# Loading work.i2c_if(fast)
+# Loading work.module_top(fast)
+# Loading work.apb_lmmi_bridge(fast)
+# Loading work.register_file(fast)
+# Loading work.fifo_trans(fast)
+# Loading work.fifo_receiver(fast)
+# Loading work.i2c_master(fast)
+# Loading work.i2c_slave(fast)
+# Compiling C:\Users\LENOVO\AppData\Local\Temp\LENOVO@DESKTOP-76RQP1E_dpi_12900\win64_gcc-4.5.0\exportwrapper.c
+# Loading C:\Users\LENOVO\AppData\Local\Temp\LENOVO@DESKTOP-76RQP1E_dpi_12900\win64_gcc-4.5.0\dpi_auto_compile.dll
+# log -r /* 
+# run -all 
+# UVM_INFO D:/UVM/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+# ----------------------------------------------------------------
+# UVM-1.2
+# (C) 2007-2014 Mentor Graphics Corporation
+# (C) 2007-2014 Cadence Design Systems, Inc.
+# (C) 2006-2014 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# (C) 2013-2014 NVIDIA Corporation
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO D:/UVM/uvm-1.2/src/base/uvm_root.svh(453) @ 0: reporter [NO_DPI_TSTNAME] UVM_NO_DPI defined--getting UVM_TESTNAME directly, without DPI
+# UVM_INFO @ 0: reporter [RNTST] Running test i2c_master_read_test...
+# UVM_INFO ./../apb_vip/apb_agent.sv(30) @ 0: uvm_test_top.env.apb_agt [[APB_VIP][apb_AGENT]] Active agent is configued
+# UVM_INFO D:/UVM/uvm-1.2/src/base/uvm_root.svh(579) @ 0: reporter [UVMTOP] UVM testbench topology:
+# -----------------------------------------------------------------------------
+# Name                        Type                                  Size  Value
+# -----------------------------------------------------------------------------
+# uvm_test_top                i2c_master_read_test                  -     @346 
+#   env                       i2c_environment                       -     @360 
+#     apb_agt                 apb_agent                             -     @373 
+#       driver                apb_driver                            -     @498 
+#         rsp_port            uvm_analysis_port                     -     @517 
+#         seq_item_port       uvm_seq_item_pull_port                -     @507 
+#       monitor               apb_monitor                           -     @664 
+#         item_observed_port  uvm_analysis_port                     -     @673 
+#       sequencer             apb_sequencer                         -     @527 
+#         rsp_export          uvm_analysis_export                   -     @536 
+#         seq_item_export     uvm_seq_item_pull_imp                 -     @654 
+#         arbitration_queue   array                                 0     -    
+#         lock_queue          array                                 0     -    
+#         num_last_reqs       integral                              32    'd1  
+#         num_last_rsps       integral                              32    'd1  
+#     apb_predictor           uvm_reg_predictor #(apb_transaction)  -     @465 
+#       bus_in                uvm_analysis_imp                      -     @474 
+#       reg_ap                uvm_analysis_port                     -     @484 
+#     i2c_agt                 i2c_agent                             -     @382 
+#       monitor               i2c_monitor                           -     @696 
+#         item_observed_port  uvm_analysis_port                     -     @705 
+#     sb                      i2c_scoreboard                        -     @391 
+#       apb_export            uvm_analysis_imp_apb                  -     @718 
+#       i2c_export            uvm_analysis_imp_i2c                  -     @728 
+# -----------------------------------------------------------------------------
+# 
+# UVM_INFO D:/UVM/uvm-1.2/src/base/uvm_traversal.svh(279) @ 0: reporter [UVM/COMP/NAMECHECK] This implementation of the component name checks requires DPI to be enabled
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(27) @ 0: reporter [i2c_reg2apb_adapter] reg2bus: addr=0x0 data=0x3c kind=WRITE
+# UVM_INFO ./../apb_vip/apb_monitor.sv(38) @ 0: uvm_test_top.env.apb_agt.monitor [[APB_VIP][APB_MONITOR]] Captured APB transaction:
+#  --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @803 
+#   xact_type     xact_type_enum   1     WRITE
+#   addr          integral         8     'h0  
+#   data          integral         8     'h3c 
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 0: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x0 data=0x3c kind=UVM_WRITE status=UVM_IS_OK
+# UVM_INFO D:/UVM/uvm-1.2/src/reg/uvm_reg_predictor.svh(221) @ 0: uvm_test_top.env.apb_predictor [REG_PREDICT] Observed WRITE transaction to register regmodel.WR: value='h3c : updated value = 'h3c
+# UVM_INFO ./../tb/i2c_scoreboard.sv(34) @ 0: uvm_test_top.env.sb [i2c_scoreboard] [scoreboard][APB] EXPECT received
+# --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @803 
+#   xact_type     xact_type_enum   1     WRITE
+#   addr          integral         8     'h0  
+#   data          integral         8     'h3c 
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 0: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x0 data=0x3c kind=UVM_WRITE status=UVM_IS_OK
+# UVM_INFO @ 0: reporter [RegModel] Wrote register via map regmodel.apb_map: regmodel.WR=0x3c
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(27) @ 0: reporter [i2c_reg2apb_adapter] reg2bus: addr=0x8 data=0x55 kind=WRITE
+# UVM_INFO ./../apb_vip/apb_monitor.sv(38) @ 0: uvm_test_top.env.apb_agt.monitor [[APB_VIP][APB_MONITOR]] Captured APB transaction:
+#  --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @843 
+#   xact_type     xact_type_enum   1     WRITE
+#   addr          integral         8     'h8  
+#   data          integral         8     'h55 
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 0: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x8 data=0x55 kind=UVM_WRITE status=UVM_IS_OK
+# UVM_INFO D:/UVM/uvm-1.2/src/reg/uvm_reg_predictor.svh(221) @ 0: uvm_test_top.env.apb_predictor [REG_PREDICT] Observed WRITE transaction to register regmodel.ADDRL: value='h55 : updated value = 'h55
+# UVM_INFO ./../tb/i2c_scoreboard.sv(34) @ 0: uvm_test_top.env.sb [i2c_scoreboard] [scoreboard][APB] EXPECT received
+# --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @843 
+#   xact_type     xact_type_enum   1     WRITE
+#   addr          integral         8     'h8  
+#   data          integral         8     'h55 
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 0: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x8 data=0x55 kind=UVM_WRITE status=UVM_IS_OK
+# UVM_INFO @ 0: reporter [RegModel] Wrote register via map regmodel.apb_map: regmodel.ADDRL=0x55
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(27) @ 0: reporter [i2c_reg2apb_adapter] reg2bus: addr=0x10 data=0x10 kind=WRITE
+# UVM_INFO ./../apb_vip/apb_monitor.sv(38) @ 0: uvm_test_top.env.apb_agt.monitor [[APB_VIP][APB_MONITOR]] Captured APB transaction:
+#  --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @883 
+#   xact_type     xact_type_enum   1     WRITE
+#   addr          integral         8     'h10 
+#   data          integral         8     'h10 
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 0: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x10 data=0x10 kind=UVM_WRITE status=UVM_IS_OK
+# UVM_INFO D:/UVM/uvm-1.2/src/reg/uvm_reg_predictor.svh(221) @ 0: uvm_test_top.env.apb_predictor [REG_PREDICT] Observed WRITE transaction to register regmodel.CONTROL: value='h10 : updated value = 'h10
+# UVM_INFO ./../tb/i2c_scoreboard.sv(34) @ 0: uvm_test_top.env.sb [i2c_scoreboard] [scoreboard][APB] EXPECT received
+# --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @883 
+#   xact_type     xact_type_enum   1     WRITE
+#   addr          integral         8     'h10 
+#   data          integral         8     'h10 
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 0: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x10 data=0x10 kind=UVM_WRITE status=UVM_IS_OK
+# UVM_INFO @ 0: reporter [RegModel] Wrote register via map regmodel.apb_map: regmodel.CONTROL=0x10
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(27) @ 0: reporter [i2c_reg2apb_adapter] reg2bus: addr=0x18 data=0x8 kind=WRITE
+# UVM_INFO ./../apb_vip/apb_monitor.sv(38) @ 0: uvm_test_top.env.apb_agt.monitor [[APB_VIP][APB_MONITOR]] Captured APB transaction:
+#  --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @923 
+#   xact_type     xact_type_enum   1     WRITE
+#   addr          integral         8     'h18 
+#   data          integral         8     'h8  
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 0: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x18 data=0x8 kind=UVM_WRITE status=UVM_IS_OK
+# UVM_INFO D:/UVM/uvm-1.2/src/reg/uvm_reg_predictor.svh(221) @ 0: uvm_test_top.env.apb_predictor [REG_PREDICT] Observed WRITE transaction to register regmodel.MODE: value='h8 : updated value = 'h8
+# UVM_INFO ./../tb/i2c_scoreboard.sv(34) @ 0: uvm_test_top.env.sb [i2c_scoreboard] [scoreboard][APB] EXPECT received
+# --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @923 
+#   xact_type     xact_type_enum   1     WRITE
+#   addr          integral         8     'h18 
+#   data          integral         8     'h8  
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 0: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x18 data=0x8 kind=UVM_WRITE status=UVM_IS_OK
+# UVM_INFO @ 0: reporter [RegModel] Wrote register via map regmodel.apb_map: regmodel.MODE=0x8
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(27) @ 0: reporter [i2c_reg2apb_adapter] reg2bus: addr=0x1c data=0x4 kind=WRITE
+# UVM_INFO ./../apb_vip/apb_monitor.sv(38) @ 1000000: uvm_test_top.env.apb_agt.monitor [[APB_VIP][APB_MONITOR]] Captured APB transaction:
+#  --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @963 
+#   xact_type     xact_type_enum   1     WRITE
+#   addr          integral         8     'h1c 
+#   data          integral         8     'h4  
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 1000000: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x1c data=0x4 kind=UVM_WRITE status=UVM_IS_OK
+# UVM_INFO D:/UVM/uvm-1.2/src/reg/uvm_reg_predictor.svh(221) @ 1000000: uvm_test_top.env.apb_predictor [REG_PREDICT] Observed WRITE transaction to register regmodel.PRESC: value='h4 : updated value = 'h4
+# UVM_INFO ./../tb/i2c_scoreboard.sv(34) @ 1000000: uvm_test_top.env.sb [i2c_scoreboard] [scoreboard][APB] EXPECT received
+# --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @963 
+#   xact_type     xact_type_enum   1     WRITE
+#   addr          integral         8     'h1c 
+#   data          integral         8     'h4  
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 1000000: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x1c data=0x4 kind=UVM_WRITE status=UVM_IS_OK
+# UVM_INFO @ 1000000: reporter [RegModel] Wrote register via map regmodel.apb_map: regmodel.PRESC=0x4
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(27) @ 1000000: reporter [i2c_reg2apb_adapter] reg2bus: addr=0x10 data=0x11 kind=WRITE
+# UVM_INFO ./../apb_vip/apb_monitor.sv(38) @ 1000000: uvm_test_top.env.apb_agt.monitor [[APB_VIP][APB_MONITOR]] Captured APB transaction:
+#  --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @1003
+#   xact_type     xact_type_enum   1     WRITE
+#   addr          integral         8     'h10 
+#   data          integral         8     'h11 
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 1000000: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x10 data=0x11 kind=UVM_WRITE status=UVM_IS_OK
+# UVM_INFO D:/UVM/uvm-1.2/src/reg/uvm_reg_predictor.svh(221) @ 1000000: uvm_test_top.env.apb_predictor [REG_PREDICT] Observed WRITE transaction to register regmodel.CONTROL: value='h11 : updated value = 'h11
+# UVM_INFO ./../tb/i2c_scoreboard.sv(34) @ 1000000: uvm_test_top.env.sb [i2c_scoreboard] [scoreboard][APB] EXPECT received
+# --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @1003
+#   xact_type     xact_type_enum   1     WRITE
+#   addr          integral         8     'h10 
+#   data          integral         8     'h11 
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 1000000: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x10 data=0x11 kind=UVM_WRITE status=UVM_IS_OK
+# UVM_INFO @ 1000000: reporter [RegModel] Wrote register via map regmodel.apb_map: regmodel.CONTROL=0x11
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(27) @ 1000000: reporter [i2c_reg2apb_adapter] reg2bus: addr=0x10 data=0x0 kind=WRITE
+# UVM_INFO ./../apb_vip/apb_monitor.sv(38) @ 1000000: uvm_test_top.env.apb_agt.monitor [[APB_VIP][APB_MONITOR]] Captured APB transaction:
+#  --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @1043
+#   xact_type     xact_type_enum   1     WRITE
+#   addr          integral         8     'h10 
+#   data          integral         8     'h0  
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 1000000: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x10 data=0x0 kind=UVM_WRITE status=UVM_IS_OK
+# UVM_INFO D:/UVM/uvm-1.2/src/reg/uvm_reg_predictor.svh(221) @ 1000000: uvm_test_top.env.apb_predictor [REG_PREDICT] Observed WRITE transaction to register regmodel.CONTROL: value='h0 : updated value = 'h0
+# UVM_INFO ./../tb/i2c_scoreboard.sv(34) @ 1000000: uvm_test_top.env.sb [i2c_scoreboard] [scoreboard][APB] EXPECT received
+# --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @1043
+#   xact_type     xact_type_enum   1     WRITE
+#   addr          integral         8     'h10 
+#   data          integral         8     'h0  
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 1000000: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x10 data=0x0 kind=UVM_WRITE status=UVM_IS_OK
+# UVM_INFO @ 1000000: reporter [RegModel] Wrote register via map regmodel.apb_map: regmodel.CONTROL=0x0
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(27) @ 4000000: reporter [i2c_reg2apb_adapter] reg2bus: addr=0x4 data=0x0 kind=READ
+# UVM_INFO ./../apb_vip/apb_monitor.sv(38) @ 4000000: uvm_test_top.env.apb_agt.monitor [[APB_VIP][APB_MONITOR]] Captured APB transaction:
+#  --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @1087
+#   xact_type     xact_type_enum   1     READ 
+#   addr          integral         8     'h4  
+#   data          integral         8     'ha5 
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 4000000: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x4 data=0xa5 kind=UVM_READ status=UVM_IS_OK
+# UVM_INFO D:/UVM/uvm-1.2/src/reg/uvm_reg_predictor.svh(225) @ 4000000: uvm_test_top.env.apb_predictor [REG_PREDICT] Observed READ transaction to register regmodel.RD: value='ha5
+# UVM_INFO ./../tb/i2c_scoreboard.sv(34) @ 4000000: uvm_test_top.env.sb [i2c_scoreboard] [scoreboard][APB] EXPECT received
+# --------------------------------------------
+# Name            Type             Size  Value
+# --------------------------------------------
+# observed_trans  apb_transaction  -     @1087
+#   xact_type     xact_type_enum   1     READ 
+#   addr          integral         8     'h4  
+#   data          integral         8     'ha5 
+# --------------------------------------------
+# 
+# UVM_INFO ./../regmodel/i2c_reg2apb_adapter.sv(42) @ 4000000: reporter [i2c_reg2apb_adapter] bus2reg: addr=0x4 data=0xa5 kind=UVM_READ status=UVM_IS_OK
+# UVM_INFO @ 4000000: reporter [RegModel] Read  register via map regmodel.apb_map: regmodel.RD=a5
+# UVM_INFO ./../testcases/i2c_master_read_test.sv(46) @ 4000000: uvm_test_top [I2C_WRITE] PASSED Write
+# UVM_INFO D:/UVM/uvm-1.2/src/base/uvm_objection.svh(1271) @ 5000000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO ./../testcases/i2c_base_test.sv(49) @ 5000000: uvm_test_top [final_phase] Entered...
+# UVM_INFO ./../testcases/i2c_base_test.sv(58) @ 5000000: uvm_test_top [i2c_master_read_test] ---------------------------------------
+# UVM_INFO ./../testcases/i2c_base_test.sv(59) @ 5000000: uvm_test_top [i2c_master_read_test] ----           TEST PASSED         ----
+# UVM_INFO ./../testcases/i2c_base_test.sv(60) @ 5000000: uvm_test_top [i2c_master_read_test] ---------------------------------------
+# UVM_INFO ./../testcases/i2c_base_test.sv(62) @ 5000000: uvm_test_top [final_phase] Exiting...
+# UVM_INFO D:/UVM/uvm-1.2/src/base/uvm_report_server.svh(847) @ 5000000: reporter [UVM/REPORT/SERVER] 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   69
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [I2C_WRITE]     1
+# [NO_DPI_TSTNAME]     1
+# [REG_PREDICT]     8
+# [RNTST]     1
+# [RegModel]     8
+# [TEST_DONE]     1
+# [UVM/COMP/NAMECHECK]     1
+# [UVM/RELNOTES]     1
+# [UVMTOP]     1
+# [[APB_VIP][APB_MONITOR]]     8
+# [[APB_VIP][apb_AGENT]]     1
+# [final_phase]     2
+# [i2c_master_read_test]     3
+# [i2c_reg2apb_adapter]    24
+# [i2c_scoreboard]     8
+# 
+# ** Note: $finish    : D:/UVM/uvm-1.2/src/base/uvm_root.svh(517)
+#    Time: 5470 ns  Iteration: 69  Instance: /testbench

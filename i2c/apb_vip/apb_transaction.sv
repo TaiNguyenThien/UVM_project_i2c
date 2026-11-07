@@ -1,0 +1,26 @@
+
+`ifndef APB_TRANSACTION__SV
+`define APB_TRANSACTION__SV
+
+class apb_transaction extends uvm_sequence_item;
+  typedef enum bit {READ=0,WRITE=1} xact_type_enum;
+
+  rand xact_type_enum           xact_type;
+  rand bit[7:0] addr;
+  rand bit[7:0] data;
+
+  `uvm_object_utils_begin (apb_transaction)
+    `uvm_field_enum       (xact_type_enum ,xact_type      ,UVM_ALL_ON |UVM_HEX )
+    `uvm_field_int        (addr           ,UVM_ALL_ON |UVM_HEX )
+    `uvm_field_int        (data           ,UVM_ALL_ON |UVM_HEX )
+  `uvm_object_utils_end
+
+  function new(string name="apb_transaction");
+    super.new(name);
+  endfunction: new
+
+endclass: apb_transaction
+
+`endif
+
+

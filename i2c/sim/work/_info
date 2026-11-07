@@ -1,0 +1,614 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/lenovo/Final_Project_I2C/i2c_copy/i2c/sim
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+!s110 1768567973
+V0H1TfAkh83B3AGIN`kb`n0
+04 9 4 work testbench fast 0
+=1-9c2dcdb0a18b-696a34a4-3a8-32d0
+o-quiet -auto_acc_if_foreign -work work +acc
+n@_opt
+OL;O;10.2c;57
+Yapb_if
+Z1 DXx6 sv_std 3 std 0 22 `a<MJET1=lN@jzbA7kHm;1
+Z2 !s110 1768567971
+IAMB<omhGL0Bk2MKKBNcKa0
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+Z4 !s105 uvm_sv_unit
+S1
+Z5 dD:/lenovo/Final_Project_I2C/i2c_copy/i2c/sim
+w1768567959
+8./../apb_vip/apb_if.sv
+F./../apb_vip/apb_if.sv
+L0 5
+Z6 OL;L;10.2c;57
+r1
+31
+Z7 !s108 1768567971.009000
+Z8 !s107 ./../testcases/i2c_master_write_addr10b_test.sv|./../testcases/i2c_nack_error_test.sv|./../testcases/i2c_fifo_int_test.sv|./../testcases/i2c_write_3byte_test.sv|./../testcases/i2c_repeat_start_test.sv|./../testcases/i2c_master_write_test.sv|./../testcases/i2c_master_read_test.sv|./../testcases/i2c_default_test.sv|./../testcases/i2c_reg_scan_test.sv|./../testcases/i2c_base_test.sv|./../tb/i2c_environment.sv|./../tb/i2c_scoreboard.sv|./../regmodel/i2c_reg_block.sv|./../regmodel/i2c_reg2apb_adapter.sv|./../regmodel/register/i2c_INTEN_reg.sv|./../regmodel/register/i2c_INTSTA_reg.sv|./../regmodel/register/i2c_PRESC_reg.sv|./../regmodel/register/i2c_MODE_reg.sv|./../regmodel/register/i2c_BYTECNT_reg.sv|./../regmodel/register/i2c_CONTROL_reg.sv|./../regmodel/register/i2c_ADDRH_reg.sv|./../regmodel/register/i2c_ADDRL_reg.sv|./../regmodel/register/i2c_RD_reg.sv|./../regmodel/register/i2c_WR_reg.sv|./../i2c_vip/i2c_agent.sv|./../i2c_vip/i2c_monitor.sv|./../i2c_vip/i2c_transaction.sv|./../i2c_vip/i2c_define.sv|./../apb_vip/apb_agent.sv|./../apb_vip/apb_monitor.sv|./../apb_vip/apb_driver.sv|./../apb_vip/apb_sequencer.sv|./../apb_vip/apb_transaction.sv|./../apb_vip/apb_define.sv|D:/UVM/uvm-1.2/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh|D:/UVM/uvm-1.2/src/reg/sequences/uvm_reg_mem_built_in_seq.svh|D:/UVM/uvm-1.2/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh|D:/UVM/uvm-1.2/src/reg/sequences/uvm_reg_access_seq.svh|D:/UVM/uvm-1.2/src/reg/sequences/uvm_mem_access_seq.svh|D:/UVM/uvm-1.2/src/reg/sequences/uvm_mem_walk_seq.svh|D:/UVM/uvm-1.2/src/reg/sequences/uvm_reg_bit_bash_seq.svh|D:/UVM/uvm-1.2/src/reg/sequences/uvm_reg_hw_reset_seq.svh|D:/UVM/uvm-1.2/src/reg/uvm_reg_block.svh|D:/UVM/uvm-1.2/src/reg/uvm_reg_map.svh|D:/UVM/uvm-1.2/src/reg/uvm_mem.svh|D:/UVM/uvm-1.2/src/reg/uvm_vreg.svh|D:/UVM/uvm-1.2/src/reg/uvm_mem_mam.svh|D:/UVM/uvm-1.2/src/reg/uvm_reg_file.svh|D:/UVM/uvm-1.2/src/reg/uvm_reg_fifo.svh|D:/UVM/uvm-1.2/src/reg/uvm_reg_indirect.svh|D:/UVM/uvm-1.2/src/reg/uvm_reg.svh|D:/UVM/uvm-1.2/src/reg/uvm_vreg_field.svh|D:/UVM/uvm-1.2/src/reg/uvm_reg_field.svh|D:/UVM/uvm-1.2/src/reg/uvm_reg_backdoor.svh|D:/UVM/uvm-1.2/src/reg/uvm_reg_cbs.svh|D:/UVM/uvm-1.2/src/reg/uvm_reg_sequence.svh|D:/UVM/uvm-1.2/src/reg/uvm_reg_predictor.svh|D:/UVM/uvm-1.2/src/reg/uvm_reg_adapter.svh|D:/UVM/uvm-1.2/src/reg/uvm_reg_item.svh|D:/UVM/uvm-1.2/src/reg/uvm_reg_model.svh|D:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_sockets.svh|D:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_sockets_base.svh|D:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_exports.svh|D:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_ports.svh|D:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_imps.svh|D:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_ifs.svh|D:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_generic_payload.svh|D:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_time.svh|D:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_defines.svh|D:/UVM/uvm-1.2/src/tlm2/uvm_tlm2.svh|D:/UVM/uvm-1.2/src/seq/uvm_sequence_builtin.svh|D:/UVM/uvm-1.2/src/seq/uvm_sequence_library.svh|D:/UVM/uvm-1.2/src/seq/uvm_sequence.svh|D:/UVM/uvm-1.2/src/seq/uvm_sequence_base.svh|D:/UVM/uvm-1.2/src/seq/uvm_push_sequencer.svh|D:/UVM/uvm-1.2/src/seq/uvm_sequencer.svh|D:/UVM/uvm-1.2/src/seq/uvm_sequencer_param_base.svh|D:/UVM/uvm-1.2/src/seq/uvm_sequencer_analysis_fifo.svh|D:/UVM/uvm-1.2/src/seq/uvm_sequencer_base.svh|D:/UVM/uvm-1.2/src/seq/uvm_sequence_item.svh|D:/UVM/uvm-1.2/src/seq/uvm_seq.svh|D:/UVM/uvm-1.2/src/comps/uvm_test.svh|D:/UVM/uvm-1.2/src/comps/uvm_env.svh|D:/UVM/uvm-1.2/src/comps/uvm_agent.svh|D:/UVM/uvm-1.2/src/comps/uvm_scoreboard.svh|D:/UVM/uvm-1.2/src/comps/uvm_push_driver.svh|D:/UVM/uvm-1.2/src/comps/uvm_driver.svh|D:/UVM/uvm-1.2/src/comps/uvm_monitor.svh|D:/UVM/uvm-1.2/src/comps/uvm_subscriber.svh|D:/UVM/uvm-1.2/src/comps/uvm_random_stimulus.svh|D:/UVM/uvm-1.2/src/comps/uvm_algorithmic_comparator.svh|D:/UVM/uvm-1.2/src/comps/uvm_in_order_comparator.svh|D:/UVM/uvm-1.2/src/comps/uvm_policies.svh|D:/UVM/uvm-1.2/src/comps/uvm_pair.svh|D:/UVM/uvm-1.2/src/comps/uvm_comps.svh|D:/UVM/uvm-1.2/src/tlm1/uvm_sqr_connections.svh|D:/UVM/uvm-1.2/src/tlm1/uvm_tlm_req_rsp.svh|D:/UVM/uvm-1.2/src/tlm1/uvm_tlm_fifos.svh|D:/UVM/uvm-1.2/src/tlm1/uvm_tlm_fifo_base.svh|D:/UVM/uvm-1.2/src/tlm1/uvm_analysis_port.svh|D:/UVM/uvm-1.2/src/tlm1/uvm_exports.svh|D:/UVM/uvm-1.2/src/tlm1/uvm_ports.svh|D:/UVM/uvm-1.2/src/tlm1/uvm_imps.svh|D:/UVM/uvm-1.2/src/base/uvm_port_base.svh|D:/UVM/uvm-1.2/src/tlm1/uvm_sqr_ifs.svh|D:/UVM/uvm-1.2/src/tlm1/uvm_tlm_ifs.svh|D:/UVM/uvm-1.2/src/tlm1/uvm_tlm.svh|D:/UVM/uvm-1.2/src/dap/uvm_set_before_get_dap.svh|D:/UVM/uvm-1.2/src/dap/uvm_get_to_lock_dap.svh|D:/UVM/uvm-1.2/src/dap/uvm_simple_lock_dap.svh|D:/UVM/uvm-1.2/src/dap/uvm_set_get_dap_base.svh|D:/UVM/uvm-1.2/src/dap/uvm_dap.svh|D:/UVM/uvm-1.2/src/base/uvm_traversal.svh|D:/UVM/uvm-1.2/src/base/uvm_cmdline_processor.svh|D:/UVM/uvm-1.2/src/base/uvm_globals.svh|D:/UVM/uvm-1.2/src/base/uvm_heartbeat.svh|D:/UVM/uvm-1.2/src/base/uvm_objection.svh|D:/UVM/uvm-1.2/src/base/uvm_root.svh|D:/UVM/uvm-1.2/src/base/uvm_component.svh|D:/UVM/uvm-1.2/src/base/uvm_runtime_phases.svh|D:/UVM/uvm-1.2/src/base/uvm_common_phases.svh|D:/UVM/uvm-1.2/src/base/uvm_task_phase.svh|D:/UVM/uvm-1.2/src/base/uvm_topdown_phase.svh|D:/UVM/uvm-1.2/src/base/uvm_bottomup_phase.svh|D:/UVM/uvm-1.2/src/base/uvm_domain.svh|D:/UVM/uvm-1.2/src/base/uvm_phase.svh|D:/UVM/uvm-1.2/src/base/uvm_transaction.svh|D:/UVM/uvm-1.2/src/base/uvm_report_object.svh|D:/UVM/uvm-1.2/src/base/uvm_report_handler.svh|D:/UVM/uvm-1.2/src/base/uvm_report_server.svh|D:/UVM/uvm-1.2/src/base/uvm_report_catcher.svh|D:/UVM/uvm-1.2/src/base/uvm_report_message.svh|D:/UVM/uvm-1.2/src/base/uvm_callback.svh|D:/UVM/uvm-1.2/src/base/uvm_barrier.svh|D:/UVM/uvm-1.2/src/base/uvm_event.svh|D:/UVM/uvm-1.2/src/base/uvm_event_callback.svh|D:/UVM/uvm-1.2/src/base/uvm_recorder.svh|D:/UVM/uvm-1.2/src/base/uvm_tr_stream.svh|D:/UVM/uvm-1.2/src/base/uvm_tr_database.svh|D:/UVM/uvm-1.2/src/base/uvm_links.svh|D:/UVM/uvm-1.2/src/base/uvm_packer.svh|D:/UVM/uvm-1.2/src/base/uvm_comparer.svh|D:/UVM/uvm-1.2/src/base/uvm_printer.svh|D:/UVM/uvm-1.2/src/base/uvm_config_db.svh|D:/UVM/uvm-1.2/src/base/uvm_resource_db.svh|D:/UVM/uvm-1.2/src/base/uvm_resource_specializations.svh|D:/UVM/uvm-1.2/src/base/uvm_resource.svh|D:/UVM/uvm-1.2/src/base/uvm_spell_chkr.svh|D:/UVM/uvm-1.2/src/base/uvm_registry.svh|D:/UVM/uvm-1.2/src/base/uvm_factory.svh|D:/UVM/uvm-1.2/src/base/uvm_queue.svh|D:/UVM/uvm-1.2/src/base/uvm_pool.svh|D:/UVM/uvm-1.2/src/base/uvm_object.svh|D:/UVM/uvm-1.2/src/base/uvm_misc.svh|D:/UVM/uvm-1.2/src/base/uvm_object_globals.svh|D:/UVM/uvm-1.2/src/base/uvm_version.svh|D:/UVM/uvm-1.2/src/base/uvm_coreservice.svh|D:/UVM/uvm-1.2/src/base/uvm_base.svh|D:/UVM/uvm-1.2/src/dpi/uvm_regex.svh|D:/UVM/uvm-1.2/src/dpi/uvm_svcmd_dpi.svh|D:/UVM/uvm-1.2/src/dpi/uvm_hdl.svh|D:/UVM/uvm-1.2/src/dpi/uvm_dpi.svh|D:/UVM/uvm-1.2/src/macros/uvm_deprecated_defines.svh|D:/UVM/uvm-1.2/src/macros/uvm_reg_defines.svh|D:/UVM/uvm-1.2/src/macros/uvm_callback_defines.svh|D:/UVM/uvm-1.2/src/macros/uvm_sequence_defines.svh|D:/UVM/uvm-1.2/src/tlm1/uvm_tlm_imps.svh|D:/UVM/uvm-1.2/src/macros/uvm_tlm_defines.svh|D:/UVM/uvm-1.2/src/macros/uvm_printer_defines.svh|D:/UVM/uvm-1.2/src/macros/uvm_object_defines.svh|D:/UVM/uvm-1.2/src/macros/uvm_phase_defines.svh|D:/UVM/uvm-1.2/src/macros/uvm_message_defines.svh|D:/UVM/uvm-1.2/src/macros/uvm_global_defines.svh|D:/UVM/uvm-1.2/src/macros/uvm_version_defines.svh|D:/UVM/uvm-1.2/src/uvm_macros.svh|D:/UVM/uvm-1.2/src/uvm_pkg.sv|./../tb/testbench.sv|./../testcases/test_pkg.sv|./../sequences/seq_pkg.sv|./../tb/env_pkg.sv|./../regmodel/i2c_regmodel_pkg.sv|./../regmodel/register/i2c_register_pkg.sv|./../i2c_vip/i2c_if.sv|./../i2c_vip/i2c_pkg.sv|./../apb_vip/apb_if.sv|./../apb_vip/apb_pkg.sv|../rtl/module_top.v|../rtl/i2c_slave.v|../rtl/i2c_master.v|../rtl/fifo_trans.v|../rtl/fifo_receiver.v|../rtl/register_file.v|../rtl/apb_lmmi_bridge.v|D:/UVM/uvm-1.2/src/uvm.sv|
+Z9 !s90 -timescale|1us/1ns|+define+UVM_NO_DPI|-mfcu|-suppress|2181|+acc=rmb|+incdir+D:/UVM/uvm-1.2/src|D:/UVM/uvm-1.2/src/uvm.sv|-f|compile.f|+define+UVM_OBJECT_MUST_HAVE_CONSTRUCTOR|
+Z10 o-suppress 2181 -timescale 1us/1ns -mfcu +acc=rmb -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+Z11 !s92 -suppress 2181 -timescale 1us/1ns +define+UVM_NO_DPI -mfcu +acc=rmb +incdir+D:/UVM/uvm-1.2/src +incdir+./../sequences +incdir+./../testcases +incdir+./../tb +incdir+./../regmodel +incdir+./../regmodel/register +incdir+./../sequences +incdir+./../testcases +incdir+./../tb +define+APB_ADDR_WIDTH=8 +define+APB_DATA_WIDTH=8 +incdir+./../apb_vip +incdir+./../i2c_vip +define+UVM_OBJECT_MUST_HAVE_CONSTRUCTOR -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+!s100 Qbf1OOC5[lQiMPf_TmLW;3
+!i10b 1
+!s85 0
+!i111 0
+vapb_lmmi_bridge
+R2
+IXg_SPOldF=6S`=<G27hLU2
+R3
+R5
+w1767811243
+8../rtl/apb_lmmi_bridge.v
+F../rtl/apb_lmmi_bridge.v
+L0 23
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 N`B><Bo]][8f9>[OmDjY_1
+!i10b 1
+!s85 0
+!i111 0
+Xapb_pkg
+R1
+Z12 DXx4 work 7 uvm_pkg 0 22 o6fDE@l<7`ZIETm0o^A]U2
+R2
+I<aNC3keZXQzXf3oM;:jaB1
+V<aNC3keZXQzXf3oM;:jaB1
+S1
+R5
+w1768303833
+8./../apb_vip/apb_pkg.sv
+F./../apb_vip/apb_pkg.sv
+F./../apb_vip/apb_define.sv
+F./../apb_vip/apb_transaction.sv
+F./../apb_vip/apb_sequencer.sv
+F./../apb_vip/apb_driver.sv
+F./../apb_vip/apb_monitor.sv
+F./../apb_vip/apb_agent.sv
+L0 4
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 D19]3KCTz?=8MbcQ=3Q2d3
+!i10b 1
+!s85 0
+!i111 0
+Xenv_pkg
+R1
+R12
+Z13 DXx4 work 7 apb_pkg 0 22 <aNC3keZXQzXf3oM;:jaB1
+Z14 DXx4 work 7 i2c_pkg 0 22 [`mRbY0jCj<YNA5Z_cMQ=0
+Z15 DXx4 work 16 i2c_register_pkg 0 22 ^d977=YFl6S06PHCTJ>EN1
+Z16 DXx4 work 16 i2c_regmodel_pkg 0 22 fIL08[Gf87PB?i<E5j4Xc1
+R2
+I_@SVUSMdfSlRTdzWd^Z3W0
+V_@SVUSMdfSlRTdzWd^Z3W0
+S1
+R5
+w1767873643
+8./../tb/env_pkg.sv
+F./../tb/env_pkg.sv
+F./../tb/i2c_scoreboard.sv
+F./../tb/i2c_environment.sv
+L0 1
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 ?kPCR_z2fc`Q1HYHY`YCW2
+!i10b 1
+!s85 0
+!i111 0
+vfifo_receiver
+R2
+IP@1K0TAV1:6JK5aQ;3JL;2
+R3
+R5
+w1762757874
+8../rtl/fifo_receiver.v
+F../rtl/fifo_receiver.v
+L0 23
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 3n;SLz5mfSWdCXELG6RR=3
+!i10b 1
+!s85 0
+!i111 0
+vfifo_trans
+R2
+I3EEdW9Y=cZm1FakKj>ALo1
+R3
+R5
+w1762760455
+8../rtl/fifo_trans.v
+F../rtl/fifo_trans.v
+L0 23
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 jd8K>e2:Q8OmfXWCZHK6b3
+!i10b 1
+!s85 0
+!i111 0
+Yi2c_if
+R1
+R2
+I6GnWD5<O`mKd0<mKSfbQb0
+R3
+R4
+S1
+R5
+w1767709082
+8./../i2c_vip/i2c_if.sv
+F./../i2c_vip/i2c_if.sv
+L0 1
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 Q?37BR6<fR>=m12W@BYNE0
+!i10b 1
+!s85 0
+!i111 0
+vi2c_master
+R2
+IfBXei<NaU>2=z5Gf`G>M]2
+R3
+R5
+w1767334925
+8../rtl/i2c_master.v
+F../rtl/i2c_master.v
+L0 23
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 NYB_K:?aTde[_hGf;_]kh3
+!i10b 1
+!s85 0
+!i111 0
+Xi2c_pkg
+R1
+R12
+R2
+I[`mRbY0jCj<YNA5Z_cMQ=0
+V[`mRbY0jCj<YNA5Z_cMQ=0
+S1
+R5
+w1768303862
+8./../i2c_vip/i2c_pkg.sv
+F./../i2c_vip/i2c_pkg.sv
+F./../i2c_vip/i2c_define.sv
+F./../i2c_vip/i2c_transaction.sv
+F./../i2c_vip/i2c_monitor.sv
+F./../i2c_vip/i2c_agent.sv
+L0 4
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 kGi2<dQnb;7X:kVk^ONmI1
+!i10b 1
+!s85 0
+!i111 0
+Xi2c_register_pkg
+R1
+R12
+R2
+I^d977=YFl6S06PHCTJ>EN1
+V^d977=YFl6S06PHCTJ>EN1
+S1
+R5
+w1767867253
+8./../regmodel/register/i2c_register_pkg.sv
+F./../regmodel/register/i2c_register_pkg.sv
+F./../regmodel/register/i2c_WR_reg.sv
+F./../regmodel/register/i2c_RD_reg.sv
+F./../regmodel/register/i2c_ADDRL_reg.sv
+F./../regmodel/register/i2c_ADDRH_reg.sv
+F./../regmodel/register/i2c_CONTROL_reg.sv
+F./../regmodel/register/i2c_BYTECNT_reg.sv
+F./../regmodel/register/i2c_MODE_reg.sv
+F./../regmodel/register/i2c_PRESC_reg.sv
+F./../regmodel/register/i2c_INTSTA_reg.sv
+F./../regmodel/register/i2c_INTEN_reg.sv
+L0 1
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 2<l1jJ6m[h0KD?g?Pclk^0
+!i10b 1
+!s85 0
+!i111 0
+Xi2c_regmodel_pkg
+R1
+R12
+R13
+R15
+R2
+IfIL08[Gf87PB?i<E5j4Xc1
+VfIL08[Gf87PB?i<E5j4Xc1
+S1
+R5
+w1767502909
+8./../regmodel/i2c_regmodel_pkg.sv
+F./../regmodel/i2c_regmodel_pkg.sv
+F./../regmodel/i2c_reg2apb_adapter.sv
+F./../regmodel/i2c_reg_block.sv
+L0 1
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 3kJ8Z2ZJZi>Hi]bFXlSmn2
+!i10b 1
+!s85 0
+!i111 0
+vi2c_slave
+R2
+I=7_lXZd1O<I4LbQ3Bi9dI3
+R3
+R5
+w1763408600
+8../rtl/i2c_slave.v
+F../rtl/i2c_slave.v
+L0 23
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 =REZ992IMIIaC2=nJg4oz3
+!i10b 1
+!s85 0
+!i111 0
+vmodule_top
+R2
+ITC2[3@D5jb2n]>^zm6[j]2
+R3
+R5
+w1767629173
+8../rtl/module_top.v
+F../rtl/module_top.v
+L0 23
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 kUIhc[[:;dSBoa0:;aQH70
+!i10b 1
+!s85 0
+!i111 0
+vregister_file
+R2
+I0hgPcMY0ok`7hHBRP?PEB0
+R3
+R5
+w1767868037
+8../rtl/register_file.v
+F../rtl/register_file.v
+L0 23
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 9mhmBQ^Ud=@mZ57Qfoo8T0
+!i10b 1
+!s85 0
+!i111 0
+Xseq_pkg
+R1
+R12
+R13
+R2
+IcNKfR4Xhn9];b;9[eU;cb1
+VcNKfR4Xhn9];b;9[eU;cb1
+S1
+R5
+w1749813379
+8./../sequences/seq_pkg.sv
+F./../sequences/seq_pkg.sv
+L0 1
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 =ZIGNN]4c6e;54VEc4S_13
+!i10b 1
+!s85 0
+!i111 0
+Xtest_pkg
+R1
+R12
+R13
+R14
+R15
+R16
+Z17 DXx4 work 7 env_pkg 0 22 _@SVUSMdfSlRTdzWd^Z3W0
+Z18 DXx4 work 7 seq_pkg 0 22 cNKfR4Xhn9];b;9[eU;cb1
+R2
+I7iJzkl88=HzDUTTKo6_dE0
+V7iJzkl88=HzDUTTKo6_dE0
+S1
+R5
+w1768562226
+8./../testcases/test_pkg.sv
+F./../testcases/test_pkg.sv
+F./../testcases/i2c_base_test.sv
+F./../testcases/i2c_reg_scan_test.sv
+F./../testcases/i2c_default_test.sv
+F./../testcases/i2c_master_read_test.sv
+F./../testcases/i2c_master_write_test.sv
+F./../testcases/i2c_repeat_start_test.sv
+F./../testcases/i2c_write_3byte_test.sv
+F./../testcases/i2c_fifo_int_test.sv
+F./../testcases/i2c_nack_error_test.sv
+F./../testcases/i2c_master_write_addr10b_test.sv
+L0 1
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 g2=iZ7e5eYK7nPMASeFY31
+!i10b 1
+!s85 0
+!i111 0
+vtestbench
+R1
+R12
+R13
+R14
+R15
+R16
+R17
+R18
+DXx4 work 8 test_pkg 0 22 7iJzkl88=HzDUTTKo6_dE0
+R2
+I?lGUVb1l0RL84J6SV;Idz0
+R3
+R4
+S1
+R5
+w1768567525
+8./../tb/testbench.sv
+F./../tb/testbench.sv
+L0 1
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 UG@G4LnZo]dilGa?[=G5g3
+!i10b 1
+!s85 0
+!i111 0
+Xuvm_pkg
+R1
+R2
+Io6fDE@l<7`ZIETm0o^A]U2
+Vo6fDE@l<7`ZIETm0o^A]U2
+S1
+R5
+w1402647219
+FD:/UVM/uvm-1.2/src/uvm_pkg.sv
+8D:/UVM/uvm-1.2/src/uvm.sv
+FD:/UVM/uvm-1.2/src/uvm.sv
+FD:/UVM/uvm-1.2/src/dpi/uvm_dpi.svh
+FD:/UVM/uvm-1.2/src/dpi/uvm_hdl.svh
+FD:/UVM/uvm-1.2/src/dpi/uvm_svcmd_dpi.svh
+FD:/UVM/uvm-1.2/src/dpi/uvm_regex.svh
+FD:/UVM/uvm-1.2/src/base/uvm_base.svh
+FD:/UVM/uvm-1.2/src/base/uvm_coreservice.svh
+FD:/UVM/uvm-1.2/src/base/uvm_version.svh
+FD:/UVM/uvm-1.2/src/base/uvm_object_globals.svh
+FD:/UVM/uvm-1.2/src/base/uvm_misc.svh
+FD:/UVM/uvm-1.2/src/base/uvm_object.svh
+FD:/UVM/uvm-1.2/src/base/uvm_pool.svh
+FD:/UVM/uvm-1.2/src/base/uvm_queue.svh
+FD:/UVM/uvm-1.2/src/base/uvm_factory.svh
+FD:/UVM/uvm-1.2/src/base/uvm_registry.svh
+FD:/UVM/uvm-1.2/src/base/uvm_spell_chkr.svh
+FD:/UVM/uvm-1.2/src/base/uvm_resource.svh
+FD:/UVM/uvm-1.2/src/base/uvm_resource_specializations.svh
+FD:/UVM/uvm-1.2/src/base/uvm_resource_db.svh
+FD:/UVM/uvm-1.2/src/base/uvm_config_db.svh
+FD:/UVM/uvm-1.2/src/base/uvm_printer.svh
+FD:/UVM/uvm-1.2/src/base/uvm_comparer.svh
+FD:/UVM/uvm-1.2/src/base/uvm_packer.svh
+FD:/UVM/uvm-1.2/src/base/uvm_links.svh
+FD:/UVM/uvm-1.2/src/base/uvm_tr_database.svh
+FD:/UVM/uvm-1.2/src/base/uvm_tr_stream.svh
+FD:/UVM/uvm-1.2/src/base/uvm_recorder.svh
+FD:/UVM/uvm-1.2/src/base/uvm_event_callback.svh
+FD:/UVM/uvm-1.2/src/base/uvm_event.svh
+FD:/UVM/uvm-1.2/src/base/uvm_barrier.svh
+FD:/UVM/uvm-1.2/src/base/uvm_callback.svh
+FD:/UVM/uvm-1.2/src/uvm_macros.svh
+FD:/UVM/uvm-1.2/src/base/uvm_report_message.svh
+FD:/UVM/uvm-1.2/src/base/uvm_report_catcher.svh
+FD:/UVM/uvm-1.2/src/base/uvm_report_server.svh
+FD:/UVM/uvm-1.2/src/base/uvm_report_handler.svh
+FD:/UVM/uvm-1.2/src/base/uvm_report_object.svh
+FD:/UVM/uvm-1.2/src/base/uvm_transaction.svh
+FD:/UVM/uvm-1.2/src/base/uvm_phase.svh
+FD:/UVM/uvm-1.2/src/base/uvm_domain.svh
+FD:/UVM/uvm-1.2/src/base/uvm_bottomup_phase.svh
+FD:/UVM/uvm-1.2/src/base/uvm_topdown_phase.svh
+FD:/UVM/uvm-1.2/src/base/uvm_task_phase.svh
+FD:/UVM/uvm-1.2/src/base/uvm_common_phases.svh
+FD:/UVM/uvm-1.2/src/base/uvm_runtime_phases.svh
+FD:/UVM/uvm-1.2/src/base/uvm_component.svh
+FD:/UVM/uvm-1.2/src/base/uvm_root.svh
+FD:/UVM/uvm-1.2/src/base/uvm_objection.svh
+FD:/UVM/uvm-1.2/src/base/uvm_heartbeat.svh
+FD:/UVM/uvm-1.2/src/base/uvm_globals.svh
+FD:/UVM/uvm-1.2/src/base/uvm_cmdline_processor.svh
+FD:/UVM/uvm-1.2/src/base/uvm_traversal.svh
+FD:/UVM/uvm-1.2/src/dap/uvm_dap.svh
+FD:/UVM/uvm-1.2/src/dap/uvm_set_get_dap_base.svh
+FD:/UVM/uvm-1.2/src/dap/uvm_simple_lock_dap.svh
+FD:/UVM/uvm-1.2/src/dap/uvm_get_to_lock_dap.svh
+FD:/UVM/uvm-1.2/src/dap/uvm_set_before_get_dap.svh
+FD:/UVM/uvm-1.2/src/tlm1/uvm_tlm.svh
+FD:/UVM/uvm-1.2/src/tlm1/uvm_tlm_ifs.svh
+FD:/UVM/uvm-1.2/src/tlm1/uvm_sqr_ifs.svh
+FD:/UVM/uvm-1.2/src/base/uvm_port_base.svh
+FD:/UVM/uvm-1.2/src/tlm1/uvm_tlm_imps.svh
+FD:/UVM/uvm-1.2/src/tlm1/uvm_imps.svh
+FD:/UVM/uvm-1.2/src/tlm1/uvm_ports.svh
+FD:/UVM/uvm-1.2/src/tlm1/uvm_exports.svh
+FD:/UVM/uvm-1.2/src/tlm1/uvm_analysis_port.svh
+FD:/UVM/uvm-1.2/src/tlm1/uvm_tlm_fifo_base.svh
+FD:/UVM/uvm-1.2/src/tlm1/uvm_tlm_fifos.svh
+FD:/UVM/uvm-1.2/src/tlm1/uvm_tlm_req_rsp.svh
+FD:/UVM/uvm-1.2/src/tlm1/uvm_sqr_connections.svh
+FD:/UVM/uvm-1.2/src/comps/uvm_comps.svh
+FD:/UVM/uvm-1.2/src/comps/uvm_pair.svh
+FD:/UVM/uvm-1.2/src/comps/uvm_policies.svh
+FD:/UVM/uvm-1.2/src/comps/uvm_in_order_comparator.svh
+FD:/UVM/uvm-1.2/src/comps/uvm_algorithmic_comparator.svh
+FD:/UVM/uvm-1.2/src/comps/uvm_random_stimulus.svh
+FD:/UVM/uvm-1.2/src/comps/uvm_subscriber.svh
+FD:/UVM/uvm-1.2/src/comps/uvm_monitor.svh
+FD:/UVM/uvm-1.2/src/comps/uvm_driver.svh
+FD:/UVM/uvm-1.2/src/comps/uvm_push_driver.svh
+FD:/UVM/uvm-1.2/src/comps/uvm_scoreboard.svh
+FD:/UVM/uvm-1.2/src/comps/uvm_agent.svh
+FD:/UVM/uvm-1.2/src/comps/uvm_env.svh
+FD:/UVM/uvm-1.2/src/comps/uvm_test.svh
+FD:/UVM/uvm-1.2/src/seq/uvm_seq.svh
+FD:/UVM/uvm-1.2/src/seq/uvm_sequence_item.svh
+FD:/UVM/uvm-1.2/src/seq/uvm_sequencer_base.svh
+FD:/UVM/uvm-1.2/src/seq/uvm_sequencer_analysis_fifo.svh
+FD:/UVM/uvm-1.2/src/seq/uvm_sequencer_param_base.svh
+FD:/UVM/uvm-1.2/src/seq/uvm_sequencer.svh
+FD:/UVM/uvm-1.2/src/seq/uvm_push_sequencer.svh
+FD:/UVM/uvm-1.2/src/seq/uvm_sequence_base.svh
+FD:/UVM/uvm-1.2/src/seq/uvm_sequence.svh
+FD:/UVM/uvm-1.2/src/seq/uvm_sequence_library.svh
+FD:/UVM/uvm-1.2/src/seq/uvm_sequence_builtin.svh
+FD:/UVM/uvm-1.2/src/tlm2/uvm_tlm2.svh
+FD:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_defines.svh
+FD:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_time.svh
+FD:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_generic_payload.svh
+FD:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_ifs.svh
+FD:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_imps.svh
+FD:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_ports.svh
+FD:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_exports.svh
+FD:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_sockets_base.svh
+FD:/UVM/uvm-1.2/src/tlm2/uvm_tlm2_sockets.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_reg_model.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_reg_item.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_reg_adapter.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_reg_predictor.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_reg_sequence.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_reg_cbs.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_reg_backdoor.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_reg_field.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_vreg_field.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_reg.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_reg_indirect.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_reg_fifo.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_reg_file.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_mem_mam.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_vreg.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_mem.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_reg_map.svh
+FD:/UVM/uvm-1.2/src/reg/uvm_reg_block.svh
+FD:/UVM/uvm-1.2/src/reg/sequences/uvm_reg_hw_reset_seq.svh
+FD:/UVM/uvm-1.2/src/reg/sequences/uvm_reg_bit_bash_seq.svh
+FD:/UVM/uvm-1.2/src/reg/sequences/uvm_mem_walk_seq.svh
+FD:/UVM/uvm-1.2/src/reg/sequences/uvm_mem_access_seq.svh
+FD:/UVM/uvm-1.2/src/reg/sequences/uvm_reg_access_seq.svh
+FD:/UVM/uvm-1.2/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh
+FD:/UVM/uvm-1.2/src/reg/sequences/uvm_reg_mem_built_in_seq.svh
+FD:/UVM/uvm-1.2/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh
+L0 28
+R6
+r1
+31
+R7
+R8
+R9
+R10
+R11
+!s100 jCY[fXO6@7SKJlhZnf>BL3
+!i10b 1
+!s85 0
+!i111 0
